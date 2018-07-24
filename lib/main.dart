@@ -3,5 +3,13 @@ import 'package:flutter/material.dart';
 
 
 //Define a 'main' fn to run when app starts
-// Create a new text widget to show some text on screen
-// Take widget and get it on the screen
+void main() {
+  // Create a new text widget to show some text on screen
+  var app = MaterialApp(
+    home: Text('Hi there!')
+  );
+
+
+  // Take widget and get it on the screen
+  runApp(app);
+}
