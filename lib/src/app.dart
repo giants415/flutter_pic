@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 
-class App extends StatelessWidget {
+class App extends StatefulWidget {
+
+}
+
+class AppState extends State<App> {
   Widget build(context) {
     return MaterialApp(
     home: Scaffold(
