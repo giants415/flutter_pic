@@ -19,9 +19,7 @@ class AppState extends State<App> {
       body: Text('$counter'),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
-        onPressed: () {
-          fetchImage();
-        },
+        onPressed: fetchImage,
       ),
       appBar: AppBar(
         title: Text('Lets see some images!'),
