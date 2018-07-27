@@ -16,8 +16,8 @@ class AppState extends State<App> {
 
   void fetchImage() async {
     counter++;
-    var response = await get('https://jsonplaceholder.typicode.com/photos/$counter');
-    var imageModel = ImageModel.fromJson(json.decode(response.body));
+    final response = await get('https://jsonplaceholder.typicode.com/photos/$counter');
+    final imageModel = ImageModel.fromJson(json.decode(response.body));
 
     setState(() {
       images.add(imageModel);
